@@ -47,6 +47,12 @@
     letter-spacing: -0.14rem;
   }
 
+  .hThree {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.107rem;
+  }
+
   .hFour {
     font-size: 2rem;
     letter-spacing: -0.09rem;
@@ -62,6 +68,8 @@
 }
 
 .btn {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
   width: 19.5rem;
   height: 5.3rem;
   background-color: $Yellow;
@@ -103,4 +111,13 @@
   min-width: 1000%;
   border: none;
   border-top: 15px solid $Yellow;
+}
+
+.accordionClose {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.zeroGap {
+  gap: 0 !important;
 }

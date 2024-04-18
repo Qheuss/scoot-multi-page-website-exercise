@@ -1,0 +1,87 @@
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .about {
+    .darkBlueBackground {
+      .container {
+        .threeSmallCircles {
+          right: -10%;
+        }
+      }
+    }
+  }
+
+  .aboutGrid {
+    padding: 14.4rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 0;
+    #aboutGrid__textTwo,
+    #aboutGrid__textOne {
+      align-items: center;
+      max-width: 57.3rem;
+      min-height: 18.6rem;
+      padding: 5.6rem 0 12rem 0;
+      h2 {
+        max-width: 45.7rem;
+      }
+    }
+    #aboutGrid__imageOne {
+      .lightGreyCircle {
+        right: -112%;
+      }
+      .bigArrow {
+        left: -30%;
+      }
+      .infiniteLine {
+        display: block;
+      }
+    }
+    #aboutGrid__imageTwo {
+      .lightGreyCircle {
+        left: -112%;
+      }
+      .bigArrow {
+        right: 57%;
+        transform: scaleX(-1);
+      }
+    }
+  }
+
+  .valuesGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 12rem 0;
+    #join__text {
+      align-items: center;
+      max-width: 57.3rem;
+      h2 {
+        max-width: 45.7rem;
+      }
+    }
+    #join__image {
+      .lightGreyCircle {
+        right: -112%;
+      }
+      .bigArrow {
+        left: -27%;
+      }
+      .infiniteLine {
+        display: block;
+        top: 68.19%;
+        border-top: 1.51rem solid #fcb72b;
+      }
+    }
+  }
+
+  .faq {
+    section {
+      flex-direction: column;
+      .hThree {
+        text-align: center;
+      }
+    }
+  }
+}

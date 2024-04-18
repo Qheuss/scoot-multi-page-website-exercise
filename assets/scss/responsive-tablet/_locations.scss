@@ -1,0 +1,63 @@
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .locations {
+    .darkBlueBackground {
+      .container {
+        .threeSmallCircles {
+          right: -10%;
+        }
+      }
+    }
+  }
+
+  .map {
+    padding: 12rem 0 6rem 0;
+    position: relative;
+    div {
+      position: absolute;
+    }
+    .btn {
+      width: 12rem;
+      height: 3.2rem;
+      &:hover {
+        color: $Light-Grey;
+      }
+    }
+    .hFour {
+      font-size: 1.3rem;
+      line-height: 2.8rem;
+      letter-spacing: -0.058rem;
+    }
+    .corner {
+      bottom: -0.4rem;
+      height: 0.8rem;
+      width: 0.8rem;
+    }
+    .newYork {
+      top: 35%;
+    }
+    .London {
+      top: 28.5%;
+    }
+    .Yokohama {
+      top: 36%;
+    }
+    .Jakarta {
+      bottom: 37.5%;
+    }
+  }
+
+  .notListed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    .hTwo {
+      max-width: 45.7rem;
+    }
+    p {
+      max-width: 57.3rem;
+      margin-right: 0;
+    }
+  }
+}

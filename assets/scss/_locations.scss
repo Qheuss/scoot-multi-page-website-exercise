@@ -1,0 +1,72 @@
+.locations {
+  background-image: url(./assets/images/careers/careersBanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .darkBlueBackground {
+    background: rgba(47, 59, 89, 0.75);
+    .container {
+      position: relative;
+      min-height: 20rem;
+      display: flex;
+      align-items: center;
+      .threeSmallCircles {
+        right: -17.5%;
+      }
+    }
+  }
+}
+
+.map {
+  padding: 12rem 0 6rem 0;
+  position: relative;
+  div {
+    position: absolute;
+  }
+  .btn {
+    width: 18.9rem;
+    height: 7.2rem;
+    color: $Dark-Navy;
+    &:hover {
+      background-color: $Yellow;
+      border: none;
+      color: $Light-Grey;
+    }
+  }
+  .corner {
+    bottom: -0.8rem;
+    left: 47%;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: $Yellow;
+    transform: rotate(45deg);
+  }
+  .newYork {
+    top: 27%;
+    left: 13%;
+  }
+  .London {
+    top: 19.6%;
+    left: 35.2%;
+  }
+  .Yokohama {
+    top: 28%;
+    right: 6.1%;
+  }
+  .Jakarta {
+    bottom: 38%;
+    right: 13%;
+  }
+}
+
+.notListed {
+  padding: 6rem 0 12rem 0;
+  display: flex;
+  justify-content: space-between;
+  .hTwo {
+    max-width: 35.1rem;
+  }
+  p {
+    max-width: 44.5rem;
+    margin-right: 6rem;
+  }
+}

@@ -42,10 +42,14 @@ const faqArticle = document.querySelectorAll('.faq__article');
 faqArticle.forEach((element) => {
   element.addEventListener('click', function () {
     const chevron = this.querySelector('.chevron__arrow');
+    const accordionText = this.querySelector('.accordionText');
+
     if (chevron) {
       chevron.style.transform =
         chevron.style.transform === 'scaleY(-1)' ? '' : 'scaleY(-1)';
       chevron.style.top = chevron.style.top === '-1.6rem' ? '' : '-1.6rem';
     }
+    accordionText.classList.toggle('accordionClose');
+    this.classList.toggle('zeroGap');
   });
 });

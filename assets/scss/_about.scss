@@ -28,7 +28,6 @@
     float: right;
   }
 
-  #aboutGrid__textThree,
   #aboutGrid__textTwo,
   #aboutGrid__textOne {
     max-width: 44.5rem;
@@ -131,7 +130,8 @@
 
 .faq {
   padding: 6rem 0 16rem 0;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 6.4rem;
   .hTwo {
     text-align: center;
