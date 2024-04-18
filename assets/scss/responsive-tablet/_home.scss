@@ -44,7 +44,7 @@
         display: inline-block;
         transform: rotate(90deg);
         left: 15.6%;
-        top: -45%;
+        top: -26%;
         min-width: 51.3rem;
       }
       article {
@@ -54,6 +54,9 @@
         gap: 7.9rem;
         .howTo__Text {
           max-width: 39.8rem;
+          p {
+            margin-bottom: 4rem;
+          }
         }
       }
     }
